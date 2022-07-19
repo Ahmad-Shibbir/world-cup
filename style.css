@@ -1,7 +1,38 @@
-body {
-    background-color: aqua;
+/* Top banner style  */
+.top-banner {
+    display: flex;
+    background-color: #161616;
+    color: white;
+    margin: 8% 10%;
+    border-radius: 20px;
+    height: 70vh;
+
 }
 
-.hello {
-    color: aqua;
+.top-banner-info {
+    width: 50%;
+    padding: 5% 3% 10% 10%;
+}
+
+.top-banner-info h1 {
+    font-size: 3em;
+}
+
+.top-banner-img {
+    width: 50%;
+
+}
+
+.watch-live {
+    border-style: none;
+    background-color: #DD0000;
+    padding: 12px 18px;
+    border-radius: 4px;
+}
+
+.top-banner-img img {
+    width: 80%;
+
+    padding-top: 10%;
+    padding-bottom: 0%;
 }
