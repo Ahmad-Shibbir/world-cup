@@ -36,3 +36,67 @@
     padding-top: 10%;
     padding-bottom: 0%;
 }
+
+/* Manue style  */
+ul {
+    background-color: #161616;
+    padding: 8px;
+}
+
+li {
+    list-style: none;
+
+
+}
+
+.menue-button {
+    border-style: none;
+    width: 252px;
+    height: 64px;
+    border-radius: 4px;
+    background-color: #DD0000;
+    margin: 8px;
+}
+
+/* blog style   */
+.blogS {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: space-evenly;
+
+}
+
+.blog {
+    background-color: antiquewhite;
+    width: 312px;
+    height: 362px;
+    border-radius: 5px;
+}
+
+/* Footer  */
+footer {
+    background-color: #161616;
+    padding: 50px;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+
+}
+
+.footer-nav ul {
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li {
+    margin: 8px;
+}
+
+li a {
+    text-decoration: none;
+
+}
