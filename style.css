@@ -42,7 +42,8 @@ body {
     flex-wrap: wrap;
 }
 
-.watch-live {
+.watch-live,
+.view-all-button {
     border-style: none;
     background-color: #DD0000;
     padding: 12px 18px;
@@ -118,6 +119,12 @@ img {
 .blog-info-icon {
     color: rgb(105, 88, 88);
     margin: 20px 10px auto 0;
+}
+
+.view-all {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
 }
 
 /* Footer  */
@@ -260,6 +267,10 @@ li a {
     .blogS {
         background: none;
         background-color: white;
+    }
+
+    .view-all {
+        visibility: visible;
     }
 
 }
