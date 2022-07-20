@@ -134,7 +134,8 @@ hr {
 
 }
 
-.footer-nav ul {
+.footer-nav ul,
+.social-icon ul {
 
     display: flex;
     justify-content: center;
@@ -152,6 +153,10 @@ li a {
     text-decoration: none;
     color: wheat;
 
+}
+
+.fa-brands {
+    font-size: xx-large;
 }
 
 
@@ -206,6 +211,13 @@ li a {
     .blogS {
         background: none;
         background-color: white;
+    }
+
+    .social-icon {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        color: #DD0000;
     }
 
 
